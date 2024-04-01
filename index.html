@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><button onclick="showContent('home')">Home</button></li>
+            <li><button onclick="showContent('resume')">Resume</button></li>
+            <li><button onclick="showContent('education')">Education Background</button></li>
+            <li><button onclick="showContent('skills')">Skills</button></li>
+            <li><button onclick="showContent('projects')">Projects</button></li>
+            <li><button onclick="showContent('work')">Work Experience</button></li>
+            <li><button onclick="showContent('contact')">Contact Information</button></li>
+        </ul>
+    </nav>
+
+    <div id="content" class="content">
+        <!-- Content will be dynamically replaced here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

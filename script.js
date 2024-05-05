@@ -8,7 +8,7 @@ function showContent(page) {
                 <h2>Home</h2>
                 <div class="home-content">
                     <div class="text-description">
-                    <p>Hello! My name is Johnny Nguyen. I'm currently a senior at the University Of Missouri-Kansas City pursuing my Bachelors Of Computer Science. I'm expected to graduate in May 2024. I'm currently searching for an internship/ job experience so that I can further my knowledge, education, and experience to further develop my career in the technology field. Recently, I've created a mock application for an energy company where the user can insert data that is held within a local table where the user can interact with a dashboard, create an invoice, manage personal information, etc for a customer. My goals are to further my education within the technological field, develop strong connections with others in the field, and work towards my ideal future where I'm always learning about and exploring the ever-evolving technological advancements in our society.</p>
+                    <p> <br>Hello! My name is Johnny Nguyen. I'm currently a senior at the University Of Missouri-Kansas City pursuing my Bachelors Of Computer Science. I'm expected to graduate in May 2024. I'm currently searching for an internship/ job experience so that I can further my knowledge, education, and experience to further develop my career in the technology field. Recently, I've created a mock application for an energy company where the user can insert data that is held within a local table where the user can interact with a dashboard, create an invoice, manage personal information, etc for a customer. My goals are to further my education within the technological field, develop strong connections with others in the field, and work towards my ideal future where I'm always learning about and exploring the ever-evolving technological advancements in our society.</p>
                     </div>
                     <div class="photo">
                         <img src="gradpicture.jpg" alt="Your Photo">
@@ -19,7 +19,7 @@ function showContent(page) {
         case 'resume':
             content = `
                 <h2>Resume</h2>
-                <p>Download my resume<b>:</b></p>
+                <p> <br> Download my resume<b>:</b></p>
                 <a href="Johnny_Nguyen_Resume.pdf" target="_blank">Click here to download my resume! (PDF)</a>
             `;
             break;
@@ -70,25 +70,64 @@ function showContent(page) {
         case 'skills':
             content = `
                 <h2>Skills</h2>
-                <p>WIP.</p>
+                <p><br>Java
+                <br>C++
+                <br> Python
+                <br>HTML
+                <br>CSS
+                <br>JavaScript
+                <br>SQL
+                <br>Networking
+                <br>Troubleshooting
+                <br>Familiar with:
+                <br>Assembly
+                <br>
+                </p>
             `;
             break;
         case 'projects':
             content = `
                 <h2>Projects</h2>
-                <p>WIP</p>
+                <p><br> <b> KC Energy Project </b> <br>
+                <br>Coded a java program that allowed users to enter 
+                in data about a customer and allowed the user to 
+                access and manipulate the saved data that was entered. 
+                <br>The program included multiple functions that allowed the user to check 
+                the customer’s bills, payments, creating an 
+                invoice, and has a dashboard to be able to access everything from a main page.
+
+                <br> <br> <b> SOS Game </b> <br>
+                <br> Recreated the SOS Game using Java, including ability to play against a bot opponent that has their own randomized moves, ability to save the move history of each game to a text file for viewing game history, and an option to choose a simpe or general game 
+                </p>
             `;
             break;
         case 'work':
             content = `
                 <h2>Work Experience</h2>
-                <p>WIP</p>
+                <p><br> <br><b>Midwest Home Health Care</b> <br>
+                <br> <b> Caregiver (2020-present) </b>
+                <br> Provided caregiving services to client on a daily basis including: 
+                <br> Changing linens
+                <br> Cleaning bath
+                <br> Cleaning floors
+                <br> Assistance with dressing
+                <br> Essential Transportation
+                <br> Laundry
+                <br> Making bed
+                <br> Meal prep
+                <br> Medication assistance
+                <br> Garbage disposal
+                <br> Washing dishes
+                </p>
             `;
             break;
         case 'contact':
             content = `
                 <h2>Contact Information</h2>
-                <p>WIP</p>
+                <p><br> Email address: johnnynguyen@email.com
+                <br> Phone number: 816-699-0319
+
+                </p>
             `;
             break;
         default:
